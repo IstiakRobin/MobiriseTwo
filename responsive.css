@@ -1,0 +1,111 @@
+@media (max-width:1305px){
+    .mid-content {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+}
+@media (max-width:835px){
+    .primary-menu ul li a {
+       
+        padding: 0px 7px;
+        
+    }
+    .header-logo span {
+      
+        font-size: 18px;
+      
+    }
+    .header-btn {
+        width: 100%;
+        position: relative;
+        top: -41px;
+    }
+}
+.header-menu span{
+    display: none;
+}
+@media (max-width:685px) {
+    .header-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+        .header-logo span {
+            font-size: 18px;
+            position: relative;
+            top: -14px;
+        }
+        .logo {
+            width: 44px;
+            margin-right: 10px;
+            float: none;
+        }
+        .primary-menu {
+            width: 100%;
+            opacity: 0;
+            visibility: hidden;
+            display: none;
+        }
+        .header-menu span {
+            
+            color: blue;
+            font-size: 30px;
+            cursor: pointer;
+            display: inline-block;
+         
+        }
+        .banner-title p {
+            font-size: 22px;
+        }
+        .banner-title h1 {
+            margin-bottom: 50px;
+            font-size: 36px;
+            margin-top: 28px;
+        }
+        .banner-btn a {
+            padding: 10px 8px;
+            font-size: 13px;
+            margin-left: 3px;
+            
+        }
+        
+}
+@media (max-width:515px)
+{
+    .banner-title h1 {
+        margin-bottom: 14px;
+        font-size: 29px;
+        margin-top: -19px;
+    }
+    .banner-title p {
+        font-size: 15px;
+    }
+    .banner-btn a {
+        font-size: 13px;
+        display: block;
+        margin-left: 3px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+}
+@media (max-width:495px){
+    .banner-title h1 {
+        font-size: 17px; 
+    }
+    .banner-title p {
+        font-size: 12px;
+    }
+}
+@media (max-width:495px){
+    .banner-title p {
+        font-size: 8px;
+    }
+    .banner-title h1 {
+        font-size: 12px;
+    }
+}
